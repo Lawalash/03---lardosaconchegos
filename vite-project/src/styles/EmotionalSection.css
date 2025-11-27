@@ -1,0 +1,56 @@
+.emotional {
+  background: linear-gradient(135deg, #111111, #1a1a1a);
+  color: #f6f3e8;
+  padding: 2.5rem 0;
+  border-radius: 18px;
+  margin: 0.5rem;
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.emotional::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 20% 20%, rgba(212, 175, 55, 0.12), transparent 50%),
+    radial-gradient(circle at 80% 0%, rgba(255, 255, 255, 0.08), transparent 45%);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.emotional__content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.emotional h2 {
+  color: #fefaf0;
+  margin-top: 0.3rem;
+}
+
+.emotional p {
+  color: rgba(246, 243, 232, 0.8);
+}
+
+.quote-card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 14px;
+  padding: 1.25rem 1.5rem;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+.quote {
+  font-size: 1.3rem;
+  font-style: italic;
+  margin: 0 0 0.5rem;
+}
+
+.quote__author {
+  color: rgba(246, 243, 232, 0.75);
+}
