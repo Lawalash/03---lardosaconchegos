@@ -7,6 +7,7 @@ import EmotionalSection from './components/EmotionalSection'
 import VisitCallToAction from './components/VisitCallToAction'
 import ContactSection from './components/ContactSection'
 import Footer from './components/Footer'
+import CareGallery from './components/CareGallery'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Hero />
         <Benefits />
         <Services />
+        <CareGallery />
         <EmotionalSection />
         <VisitCallToAction />
         <ContactSection />

@@ -7,13 +7,14 @@ const Hero = () => {
 
   return (
     <section className="hero" id="sobre">
+      <div className="hero__overlay" />
       <div className="container hero__content">
         <div className="hero__text">
           <div className="eyebrow">ILPI Aconchego dos Avós</div>
           <h1>Um lugar seguro, acolhedor e sofisticado para quem você ama</h1>
           <p>
-            Cuidado humanizado com equipe multidisciplinar, segurança 24h e programação diária
-            para manter corpo e mente ativos. Aqui, seu familiar é recebido com carinho e respeito.
+            Cuidado humanizado com equipe multidisciplinar, segurança 24h e programação diária para manter corpo
+            e mente ativos. Aqui, seu familiar é recebido com carinho e respeito.
           </p>
           <div className="hero__actions">
             <a className="btn btn--primary" href={whatsappLink} target="_blank" rel="noreferrer">
